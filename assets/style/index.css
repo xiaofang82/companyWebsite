@@ -91,3 +91,51 @@ main .container {
     margin-inline: auto;
     margin-bottom: 100px;
 }
+
+.row {
+    margin-top:60px;
+    display:flex;
+    flex-wrap: Wrap;
+    gap:20px;
+    text-align: center;
+}
+
+.column {
+    flex: 1 0 auto;
+    width: calc(25% - 20px);
+    height: 600px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 0.1);
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+.column:hover {
+    box-shadow: 3px 3px 5px rgb(0 0 0 / 0.1);
+    transform: scale(1.02);
+}
+
+.pic-1 {
+    background-color: white;
+    background: url('../img/chair.png') no-repeat center center / cover;
+
+    height: 320px;
+}
+
+.pic-2 {
+    background-color: white;
+    background: url('../img/night-table.webp') no-repeat center center / cover;
+    height: 320px;
+}
+
+.pic-3 {
+    background-color: white;
+    background: url('../img/Asia.jpg') no-repeat center center / cover;
+    height: 320px;
+}
+
+@media screen and (max-width: 480px) {
+    .column {
+        width: 100%;
+    }
+}
