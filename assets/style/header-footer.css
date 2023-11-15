@@ -257,13 +257,18 @@ textarea {
 }
 
 input[type=button] {
-    width: 150px;
+    width: 120px;
     font-size: 16px;
     font-weight:bold;
+    background-color: #47e347;
+    color: #fff;
+    cursor: pointer;
+    border: 0px;
 }
 
-.textarea {
-    height: 200px;
+input[type=button]:hover{
+    background-color: #90ee90;
+    color:#fff;
 }
 
 form p {
