@@ -49,6 +49,8 @@
     background-image: url('../img/chair101/black1.avif');
     height: 612px;
     width: 612px;
+    background-size: cover;
+    background-position: center;
 }
 
 .smallPic {
