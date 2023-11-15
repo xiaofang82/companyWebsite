@@ -125,7 +125,7 @@ a:hover {
 
 /* footer begins */
 footer {
-    height: 60px;
+    height: 320px;
     background-color: #e2e2e5;
     width: 100%;
     display: flex;
@@ -133,8 +133,42 @@ footer {
     justify-content: space-between;
 }
 
-footer .container {
+footer .row {
+    margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500px;
+    gap:20px;
+    height: 200px;
+}
+
+.rowcopyright {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    line-height: 60px;
+}
+
+.title-small {
+    font-size: 12px;
+    line-height: 40px;
+}
+
+
+.line {
+    height: 1px;
+    background-color: rgb(176, 175, 175);
+}
+
+footer .column {
+    float: left;
+    flex: 1 0 auto;
+    border-radius: 5px;
+    width: 20%;
+    line-height: 60px;
 }
 
 .footer-nav {
@@ -191,6 +225,15 @@ footer .container {
     overflow: hidden;
 }
 
+#smallfooter {
+    display: none;
+}
+
+.smallcolumn {
+    margin-left: 5px;
+    line-height: 40px;
+    font-size: 16px;
+}
 
 /* footer ends */
 
@@ -230,3 +273,15 @@ footer .container {
     text-align: center;
 }
 /* modal end */
+
+@media screen and (max-width: 868px) {
+    #largfooter {
+        display: none;
+    }
+    #smallfooter {
+        display: block;
+    }
+    #line{
+        display: none;
+    }
+}
