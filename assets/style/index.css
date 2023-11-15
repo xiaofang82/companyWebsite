@@ -160,21 +160,21 @@ a{
 
 .pic-1 {
     background-color: white;
-    background: url('../img/chair.webp') no-repeat center center / cover;
+    background: url('../img/chair.avif') no-repeat center center / cover;
 
-    height: 320px;
+    height: 340px;
 }
 
 .pic-2 {
     background-color: white;
     background: url('../img/night-table.webp') no-repeat center center / cover;
-    height: 320px;
+    height: 340px;
 }
 
 .pic-3 {
     background-color: white;
     background: url('../img/sofa.webp') no-repeat center center / cover;
-    height: 320px;
+    height: 340px;
 }
 
 .price-tag {
