@@ -40,6 +40,14 @@ main h1 {
     margin-bottom: 20px;
 }
 
+#faq {
+    font-size: 58px;
+    color: #fff;
+    line-height: 68px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
 .text {
     font-size: 20px;
     color: #fff;
@@ -185,4 +193,8 @@ a{
     .column {
         width: 100%;
     }
+}
+
+.faq {
+    background-color: #90ee90;
 }
