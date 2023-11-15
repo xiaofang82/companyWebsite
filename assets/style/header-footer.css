@@ -18,6 +18,7 @@ header {
     font-size: 44px;
     padding-left: 10px;
     line-height: 60px;
+    
     font-family: 'Fuggles', cursive;
     font-weight: 600;
 }
@@ -39,6 +40,7 @@ header {
 
 .header-icon {
     display: flex;
+    align-items: center;
 }
 
 .header-div i {
