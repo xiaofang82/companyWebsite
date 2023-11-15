@@ -44,7 +44,7 @@
 }
 
 .bigPic {
-    background-image: url('../img/headphone101/black1.webp');
+    background-image: url('../img/chair101/black1.avif');
     height: 612px;
     width: 612px;
 }
@@ -68,17 +68,21 @@
     background-color: blue;
 }
 
+.description1 {
+    margin-top: 15px;
+}
+
 #small1 {
-    background-image: url('../img/headphone101/black1.webp');
+    background-image: url('../img/chair101/black1.avif');
 }
 #small2 {
-    background-image: url('../img/headphone101/black2.webp');
+    background-image: url('../img/chair101/black2.avif');
 }
 #small3 {
-    background-image: url('../img/headphone101/black3.webp');
+    background-image: url('../img/chair101/black3.avif');
 }
 #small4 {
-    background-image: url('../img/headphone101/black4.webp');
+    background-image: url('../img/chair101/black4.avif');
 }
 
 .productRightDiv {
@@ -199,7 +203,7 @@ a,p {
 }
 
 .redColor {
-    background-color: red;
+    background-color: #ed913d;
 }
 
 .colorBox {

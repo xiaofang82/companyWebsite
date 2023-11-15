@@ -53,14 +53,14 @@ colorBoxes.forEach((item) => {
         if(item.id === 'blackD'){
             colorName.innerText = 'Black';
         } else {
-            colorName.innerText = 'red';
+            colorName.innerText = 'White';
         }
     });
     item.addEventListener('mouseout', () => {
         if(currentColorID === 'blackD'){
             colorName.innerText = 'Black';
         } else {
-            colorName.innerText = 'red';
+            colorName.innerText = 'White';
         }
     });
     item.addEventListener('click', () => {
@@ -69,7 +69,7 @@ colorBoxes.forEach((item) => {
             if(currentColorID === 'blackD'){
                 colorName.innerText = 'Black';
             } else {
-                colorName.innerText = 'red';
+                colorName.innerText = 'White';
             }
             setColorBorder();
             changeImg();
@@ -103,15 +103,15 @@ function changeImg(){
     const small3 = document.querySelector('#small3');
     const small4 = document.querySelector('#small4');  
     if(currentColorID === 'blackD'){
-        small1.style.backgroundImage = 'url("./assets/img/headphone101/black1.webp")';
-        small2.style.backgroundImage = 'url("./assets/img/headphone101/black2.webp")';
-        small3.style.backgroundImage = 'url("./assets/img/headphone101/black3.webp")';
-        small4.style.backgroundImage = 'url("./assets/img/headphone101/black4.webp")';
+        small1.style.backgroundImage = 'url("./assets/img/chair101/black1.avif")';
+        small2.style.backgroundImage = 'url("./assets/img/chair101/black2.avif")';
+        small3.style.backgroundImage = 'url("./assets/img/chair101/black3.avif")';
+        small4.style.backgroundImage = 'url("./assets/img/chair101/black4.avif")';
     } else {
-        small1.style.backgroundImage = 'url("./assets/img/headphone101/red1.webp")';
-        small2.style.backgroundImage = 'url("./assets/img/headphone101/red2.webp")';
-        small3.style.backgroundImage = 'url("./assets/img/headphone101/red3.webp")';
-        small4.style.backgroundImage = 'url("./assets/img/headphone101/red4.webp")';
+        small1.style.backgroundImage = 'url("./assets/img/chair101/white1.avif")';
+        small2.style.backgroundImage = 'url("./assets/img/chair101/white2.avif")';
+        small3.style.backgroundImage = 'url("./assets/img/chair101/white3.avif")';
+        small4.style.backgroundImage = 'url("./assets/img/chair101/white4.avif")';
     }
     setBigPic(small1);
 }
