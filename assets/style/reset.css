@@ -3,6 +3,10 @@
 /*------------------------------------------*/
 /* Reset Style                              */
 /*------------------------------------------*/
+:root {
+    --app-contact-hero-background: #eeebea;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +21,8 @@ html,body {
     height: 100%;
 }
 body {
-    font-family: "Nunito Sans","Open Sans", Arial, sans-serif;
+    /* font-family: "Nunito Sans","Open Sans", Arial, sans-serif; */
+    font-family: "Bogle", "Helvetica Neue", "Helvetica", Arial,sans-serif;
     background-color: #f7f7f7
 }
 
