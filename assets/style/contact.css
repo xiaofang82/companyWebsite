@@ -11,7 +11,7 @@ main {
 
 .contact-info {
     
-    width: 40%;
+    width: 37%;
     font-size: 24px;
     font-weight: 200px;
 }
@@ -24,6 +24,7 @@ main {
     flex-wrap: wrap;
     gap: 20px;
     flex-direction: column;
+    border: 1px solid var(--app-contact-hero-background)
 }
 
 .contact-info p {
@@ -84,6 +85,13 @@ input, textarea {
 
 textarea {
     height: 150px;
+    resize: none;
+}
+
+input[type=button] {
+    width: 150px;
+    font-size: 16px;
+    font-weight:bold;
 }
 
 .textarea {
@@ -91,6 +99,62 @@ textarea {
 }
 
 .contact-bottom {
-    height: 200px;
+    height: 350px;
 }
+
+.contact_brand {
+    height: 250px;
+}
+
+.brand {
+    width: 175px;
+    padding-right: 10px;
+}
+
+.HeadText {
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    position: relative;
+    top: 28px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    padding: 0 30px;
+  }
+
+.HeadBorder {
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(221, 221, 221) 40%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0) 60%, rgb(221, 221, 221) 60%);
+    margin-bottom: 40px;
+  }
+
+@media screen and (max-width: 868px) {
+    .contact-form {
+        width: 100%;
+    }
+    .contact_brand {
+        margin-top: 150px;
+        height: 200px;
+    }
+    .brand {
+        margin-bottom: 10px;
+    }
+    .HeadBorder {
+        height: 1px;
+        width: 100%;
+        background: linear-gradient(90deg, rgb(221, 221, 221) 34%, rgba(255, 255, 255, 0) 34%, rgba(255, 255, 255, 0) 66%, rgb(221, 221, 221) 66%);
+        margin-bottom: 40px;
+      }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-form {
+        width: 100%;
+    }
+    .contact_brand {
+        margin-top: 200px;
+        height: 650px;
+    }
     
+}

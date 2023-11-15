@@ -10,11 +10,15 @@
 
         <!-- using icons from fontawesome -->
         <script src="https://kit.fontawesome.com/3f60ee6457.js" crossorigin="anonymous"></script>
-
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>  
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"> </script>
+        <script type="text/javascript" src="./assets/script/contact.js" defer></script>
         <link rel="stylesheet" href="./assets/style/reset.css">
         <link rel="stylesheet" href="./assets/style/header-footer.css">
         <link rel="stylesheet" href="./assets/style/contact.css">
-        <script src="./assets/script/index.js" defer></script>
     </head>
     <body>
         <header>
@@ -55,32 +59,60 @@
                         <form name="contactform" id="contactform">
                             <div class="row">
                                 <div class="lable">First name*</div>
-                                <div class="inputs"><input type="text" name="first-name" placeholder="John" required maxlength="10"></div>
+                                <div class="inputs form-group"><input type="text" id="firstname" name="firstname" placeholder="John" required maxlength="10"></div>
                             </div>
                             <div class="row">
                                 <div class="lable"><lable class="lable">Last name*</lable></div>
-                                <div class="inputs"><input type="text" name="las-name" placeholder="Doe" required maxlength="10"></div>
+                                <div class="inputs form-group"><input type="text" id="lastname" name="lastname" placeholder="Doe" required maxlength="10"></div>
                             </div>
                             <div class="row">
                                 <div class="lable">Email*</div>
-                                <div class="inputs"><input type="email" name="email" placeholder="john@email.com" required></div>
+                                <div class="inputs form-group"><input type="email" id="email" name="email" placeholder="john@email.com" required></div>
                             </div>
                             <div class="row">
                                 <div class="lable">Phone Number*</div>
-                                <div class="inputs"><input type="phone" name="phone" placeholder="2041234444" required></div>
+                                <div class="inputs form-group"><input type="phone" name="phone" placeholder="2041234444" required></div>
                             </div>
                             <div class="row textarea">
                                 <div class="lable">Message*</div>
-                                <div class="inputs"><textarea name="message" placeholder="Message"></textarea></div>
+                                <div class="inputs form-group"><textarea name="message" placeholder="Message"></textarea></div>
                             </div>
-                            <div ><input type="button" name="button" value="Submit"></div>
+                            
+                            <div class="row">
+                                <div class="lable"></div>
+                                <div class="inputs"><input type="button" name="button" value="Submit"></div>
+                            </div>
                         </form>
                     </div>
                 </div>
                 
             </div>
-            <div class="contact_bottom">
-                    ff
+            <div class="contact_bottom"></div>
+            <div class="container contact_brand"> 
+                <div>
+                    <h2 class="HeadText">Our Brand</h2>
+                    <div class="HeadBorder"></div>
+                </div>
+                <div class="brad-list">
+                    <div class="column">
+                        <img src="./assets/image/brand1.jpg" alt="Brand1" title="Brand1" class="brand" />                        
+                    </div>
+                    <div class="column">
+                        <img src="./assets/image/brand2.jpg" alt="Brand2" title="Brand2" class="brand" />                        
+                    </div>
+                    <div class="column">
+                        <img src="./assets/image/brand3.jpg" alt="Brand3" title="Brand3" class="brand" />                        
+                    </div>
+                    <div class="column">
+                        <img src="./assets/image/brand4.jpg" alt="Brand4" title="Brand4" class="brand" />                        
+                    </div>
+                    <div class="column">
+                        <img src="./assets/image/brand5.jpg" alt="Brand5" title="Brand5" class="brand" />                        
+                    </div>
+                    <div class="column">
+                        <img src="./assets/image/brand6.jpg" alt="Brand6" title="Brand6" class="brand" />                        
+                    </div>
+                </div>  
             </div>
         </main>
         <footer>
