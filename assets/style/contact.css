@@ -38,6 +38,13 @@ main {
     justify-content: center;
 }
 
+.contact_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 300px;
+}
+
 .column {
     float: left;
     flex: 1 0 auto;
@@ -78,3 +85,12 @@ input, textarea {
 textarea {
     height: 150px;
 }
+
+.textarea {
+    height: 200px;
+}
+
+.contact-bottom {
+    height: 200px;
+}
+    
