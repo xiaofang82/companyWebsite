@@ -30,7 +30,7 @@
                         <span class="navSpan"><a href="contact.html">Contact us</a></span>
                     </div>
                     <div class="user-icon">
-                        <a href="#">
+                        <a href="#" id="sign-in">
                             <i class="fa-solid fa-user fa-lg"></i>
                         </a>
                     </div>
@@ -227,34 +227,54 @@
 
         <footer>
             <div class="container">
-                <div class="footer-nav">
-                    <div>
-                        <a href="#">
-                            <div class="footer-icon">
-                                <i class="fa-brands fa-twitter fa-lg"></i>
-                            </div>
-                        </a>
+                <div class="row" id="largfooter">
+                    <div class="column">
+                        <div>About Us</div>
+                        <div class="title-small">About Company</div>
                     </div>
-                    <div>
-                        <a href="#">
-                            <div class="footer-icon">
-                                <i class="fa-solid fa-circle-info fa-lg"></i>
-                            </div>
-                        </a>
+                    <div class="column">
+                        <div>Services & Solutions</div>
+                        <div class="title-small">Financial Services</div>
+                        <div class="title-small">Gift Cards</div>
                     </div>
-                    <div>
-                        <a href="#">
-                            <div class="footer-icon">
-                                <i class="fa-regular fa-envelope fa-lg"></i>
-                            </div>
-                        </a>
+                    <div class="column">
+                        <div>Customer Support</div>
+                        <div class="title-small">Order Status</div>
+                        <div class="title-small">Pickup & Delivery</div>
+                    </div>
+                    <div class="column">
+                        <div>Legal</div>
+                        <div class="title-small">Privacy Policy</div>
+                        <div class="title-small">Site Map</div>
                     </div>
                 </div>
-
-                <div class="authors-div">
-                    <span>&copy; Zhixin Liu, Tieyao Zhang, Xiaofang Yang </span>
+                <div class="row" id="smallfooter">
+                        <div class="smallcolumn">About Us</div>
+                        <div class="line"></div>
+                        <div class="smallcolumn">Services & Solutions</div>
+                        <div class="line"></div>
+                        <div class="smallcolumn">Customer Support</div>
+                        <div class="line"></div>
+                        <div class="smallcolumn">Legal</div>
+                        <div class="line"></div>
                 </div>
+                <div class="line" id="line"></div>
+                <div class=" rowcopyright">&copy; Zhixin Liu, Tieyao Zhang, Xiaofang Yang</div>
             </div>
         </footer>
+        <!--modal-->
+        <div class="modal-container">
+            <div id="model" class="model">
+                <div><h2>Sign In</h2></div>
+                <div class="flexbox">
+                    <form name="model-form" id="model-form">
+                        <p><input type="text" name="name" id="name" placeholder="Your name" required maxlength="10"></p>
+                        <p id="error_name" class="error"></p>
+                        <p><input type="password" name="password" id="password" placeholder="******" required></p>
+                        <p><input type="button" name="button" value="Sign In" class="submit"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
