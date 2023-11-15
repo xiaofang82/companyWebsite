@@ -58,6 +58,15 @@ main h1 {
     text-align: left;
 }
 
+.text-2 {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    line-height: 1.8rem;
+}
+
 main section div {
     margin-top: 10px;
 }
@@ -169,7 +178,7 @@ a{
 
 #hot-deal {
     color: #000;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 480px) {
