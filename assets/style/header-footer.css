@@ -164,6 +164,7 @@ footer .row {
 }
 
 footer .column, .footer-col {
+    text-align: left;
     float: left;
     flex: 1 0 auto;
     border-radius: 5px;
