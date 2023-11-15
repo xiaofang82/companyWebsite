@@ -1,5 +1,8 @@
 'use strict'
 
+
+
+//validate contact form
 $(document).ready(function () {
     $('#contactform').bootstrapValidator({
         

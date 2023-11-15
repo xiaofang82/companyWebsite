@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"> </script>
         <script type="text/javascript" src="./assets/script/contact.js" defer></script>
+        <script type="text/javascript" src="./assets/script/index.js" defer></script>
         <link rel="stylesheet" href="./assets/style/reset.css">
         <link rel="stylesheet" href="./assets/style/header-footer.css">
         <link rel="stylesheet" href="./assets/style/contact.css">
@@ -32,7 +33,7 @@
                         <span class="navSpan"><a href="contact.html">Contact us</a></span>
                     </div>
                     <div class="user-icon">
-                        <a href="#">
+                        <a href="#" id="sign-in">
                             <i class="fa-solid fa-user fa-lg"></i>
                         </a>
                     </div>
@@ -146,5 +147,19 @@
                 </div>
             </div>
         </footer>
+        <!--modal-->
+        <div class="modal-container">
+            <div id="model" class="model">
+                <div><h2>Sign In</h2></div>
+                <div class="flexbox">
+                    <form name="model-form" id="model-form">
+                        <p><input type="text" name="name" id="name" placeholder="Your name" required maxlength="10"></p>
+                        <p id="error_name" class="error"></p>
+                        <p><input type="password" name="password" id="password" placeholder="******" required></p>
+                        <p><input type="button" name="button" value="Sign In" class="submit"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
