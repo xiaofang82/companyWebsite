@@ -26,7 +26,7 @@ main .center {
 
 .tail {
     background-color: #eaeaea;
-    height: 700px;
+    padding-bottom: 50px;
 }
 
 main .center div {
@@ -40,9 +40,15 @@ main h1 {
     margin-bottom: 20px;
 }
 
+h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+
 #faq {
     font-size: 58px;
-    color: #fff;
+    color: #000;
     line-height: 68px;
     margin-bottom: 20px;
     padding-top: 50px;
@@ -115,7 +121,7 @@ main .container {
 }
 
 .row {
-    margin-top:60px;
+    margin-top:20px;
     display:flex;
     flex-wrap: Wrap;
     gap:20px;
@@ -130,6 +136,12 @@ main .container {
     box-shadow: 1px 1px 2px rgb(0 0 0 / 0.1);
     cursor: pointer;
     transition: all 0.15s ease-in-out;
+}
+
+.column-1 {
+    flex: 1 0 auto;
+    width: calc(25% - 20px);
+   
 }
 
 .column:hover {
@@ -195,6 +207,23 @@ a{
     }
 }
 
-.faq {
-    background-color: #90ee90;
+@media screen and (max-width: 480px) {
+    .column-1 {
+        width: 100%;
+    }
+}
+
+#tail {
+    background-color: #d8ffd8;
+    padding-bottom: 30px;
+}
+
+#tail-container {
+    margin-bottom: 0px;
+    
+}
+
+.answer {
+    font-size: 18px;
+    text-align: left;
 }
