@@ -58,14 +58,11 @@ main h1 {
     text-align: left;
 }
 
-
-
-
 main section div {
     margin-top: 10px;
 }
 
-main div > a {
+#explore {
     margin-top: 20px;
     font-size: 17px;
     font-weight: 600;
@@ -78,14 +75,11 @@ main div > a {
     transition: all 0.3s ease-in-out;
 }
 
-main div > a:hover{
+#explore:hover{
     background-color: #4d4dff;
     color:#fff;
 }
 
-main div > a:visited{
-    color:#fff;
-}
 
 section {
     text-align: center;
@@ -124,6 +118,11 @@ main .container {
 .column:hover {
     box-shadow: 3px 3px 5px rgb(0 0 0 / 0.1);
     transform: scale(1.02);
+}
+
+.column a:hover .text-1, 
+.column a:hover .price-tag {
+    color: initial;
 }
 
 .pic-1 {
