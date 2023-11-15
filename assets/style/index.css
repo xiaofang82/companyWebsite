@@ -125,6 +125,10 @@ main .container {
     color: initial;
 }
 
+a{
+    color: #000;
+}
+
 .pic-1 {
     background-color: white;
     background: url('../img/chair.webp') no-repeat center center / cover;
