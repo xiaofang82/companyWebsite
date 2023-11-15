@@ -5,10 +5,12 @@
   }
 
   .lineHeightIncrease {
-    margin: 10px 0px;
+    margin: 20px 0px 0px;
   }
 
-
+.increaseFontSize {
+    font-size: 1.5rem;
+}
 
 .productLocation {
     width: 100%;
@@ -47,6 +49,8 @@
     background-image: url('../img/chair101/black1.avif');
     height: 612px;
     width: 612px;
+    background-size: cover;
+    background-position: center;
 }
 
 .smallPic {
@@ -68,10 +72,6 @@
     background-color: blue;
 }
 
-.description1 {
-    margin-top: 15px;
-}
-
 #small1 {
     background-image: url('../img/chair101/black1.avif');
 }
@@ -88,6 +88,7 @@
 .productRightDiv {
     display: block;
     padding: 55px 25px 10px;
+    margin-left: 20px;
 }
 
 .beats {
@@ -101,7 +102,7 @@ a,p {
 
 .itemIntroduction {
     font-size: 1.25rem;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.5;
     margin-top: 10px;
 }
@@ -244,7 +245,7 @@ a,p {
 
 .ratingDiv {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .ratingLeftDiv {
