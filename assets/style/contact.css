@@ -16,6 +16,10 @@ main {
     font-weight: 200px;
 }
 
+.textarea {
+    height: 180px !important;
+}
+
 .contact-form {
     display: flex;
     padding: 20px;
@@ -43,7 +47,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    height: 200px;
+    height: 250px;
 }
 
 .column {
