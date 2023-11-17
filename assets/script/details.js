@@ -103,15 +103,17 @@ function changeImg(){
     const small3 = document.querySelector('#small3');
     const small4 = document.querySelector('#small4');  
     if(currentColorID === 'blackD'){
-        small1.style.backgroundImage = 'url("./assets/img/chair101/black1.avif")';
-        small2.style.backgroundImage = 'url("./assets/img/chair101/black2.avif")';
-        small3.style.backgroundImage = 'url("./assets/img/chair101/black3.avif")';
-        small4.style.backgroundImage = 'url("./assets/img/chair101/black4.avif")';
-    } else {
         small1.style.backgroundImage = 'url("./assets/img/chair101/white1.avif")';
         small2.style.backgroundImage = 'url("./assets/img/chair101/white2.avif")';
         small3.style.backgroundImage = 'url("./assets/img/chair101/white3.avif")';
         small4.style.backgroundImage = 'url("./assets/img/chair101/white4.avif")';
+    } else {
+        small1.style.backgroundImage = 'url("./assets/img/chair101/black1.avif")';
+        small2.style.backgroundImage = 'url("./assets/img/chair101/black2.avif")';
+        small3.style.backgroundImage = 'url("./assets/img/chair101/black3.avif")';
+        small4.style.backgroundImage = 'url("./assets/img/chair101/black4.avif")';
+
+
     }
     setBigPic(small1);
 }

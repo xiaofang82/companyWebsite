@@ -46,7 +46,7 @@
 }
 
 .bigPic {
-    background-image: url('../img/chair101/black1.avif');
+    background-image: url('../img/chair101/white1.avif');
     height: 612px;
     width: 612px;
     background-size: cover;
@@ -73,16 +73,16 @@
 }
 
 #small1 {
-    background-image: url('../img/chair101/black1.avif');
+    background-image: url('../img/chair101/white1.avif');
 }
 #small2 {
-    background-image: url('../img/chair101/black2.avif');
+    background-image: url('../img/chair101/white2.avif');
 }
 #small3 {
-    background-image: url('../img/chair101/black3.avif');
+    background-image: url('../img/chair101/white3.avif');
 }
 #small4 {
-    background-image: url('../img/chair101/black4.avif');
+    background-image: url('../img/chair101/white4.avif');
 }
 
 .productRightDiv {
@@ -202,11 +202,11 @@ a,p {
 }
 
 .blackColor {
-    background-color: black;
+    background-color: #FFF8E7;
 }
 
 .redColor {
-    background-color: #FFF8E7;
+    background-color: black;
 }
 
 .colorBox {
