@@ -261,14 +261,14 @@ input[type=button] {
     width: 120px;
     font-size: 16px;
     font-weight:bold;
-    background-color: #47e347;
+    background-color: #0071dc;
     color: #fff;
     cursor: pointer;
     border: 0px;
 }
 
 input[type=button]:hover{
-    background-color: #90ee90;
+    background-color: #204e95;
     color:#fff;
 }
 
