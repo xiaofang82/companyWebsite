@@ -51,25 +51,25 @@ colorBoxes.forEach((item) => {
     const colorName = document.querySelector('.colorName');
     item.addEventListener('mouseover', () => {
         if(item.id === 'blackD'){
-            colorName.innerText = 'Black';
-        } else {
             colorName.innerText = 'White';
+        } else {
+            colorName.innerText = 'Black';
         }
     });
     item.addEventListener('mouseout', () => {
         if(currentColorID === 'blackD'){
-            colorName.innerText = 'Black';
-        } else {
             colorName.innerText = 'White';
+        } else {
+            colorName.innerText = 'Black';
         }
     });
     item.addEventListener('click', () => {
         if(currentColorID != item.id){
             currentColorID = item.id;
             if(currentColorID === 'blackD'){
-                colorName.innerText = 'Black';
-            } else {
                 colorName.innerText = 'White';
+            } else {
+                colorName.innerText = 'Black';
             }
             setColorBorder();
             changeImg();
